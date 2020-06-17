@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  max-width: 100%;
+  font-family: 'Acme', sans-serif;
+}
+
+.fp-slidesNav {
+  display: block;
+  margin: 0px auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.2em !important;
+  letter-spacing: 3px;
+  padding-bottom: 8%;
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 2.6em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 2em !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.6em !important;
+  }
+}
+
+.s1 {
+  background: linear-gradient(233deg, #fa7826, #ee7128, #fd7729);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
+
+.s1 h1 {
+  text-align: center;
+  font-size: 5em !important;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 992px) {
+  .s1 h1 {
+    font-size: 3em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .s1 h1 {
+    font-size: 2.5em !important;
+  }
+}
+
+.s2 {
+  background: linear-gradient(233deg, #4bc3e0, #40baca, #33b4db);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.pic {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+.pic .myBaby2 {
+  width: 40%;
+}
+
+@media (max-width: 576px) {
+  .pic .myBaby2 {
+    width: 70%;
+  }
+}
+
+.pic img {
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .pic img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 386px) {
+  .pic img {
+    width: 50%;
+  }
+}
+
+.myBaby3 {
+  width: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .myBaby3 {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .myBaby3 {
+    width: 100% !important;
+  }
+}
+
+.holder {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.s3 {
+  background: linear-gradient(233deg, #eb62a2, #e27bc8, #df68a3);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s4 {
+  background: linear-gradient(233deg, #dfd65d, #f1dd26, #f0e262);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s5 {
+  background: linear-gradient(233deg, #ec6d6d, #ec4848, #e45744);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s6 {
+  background: linear-gradient(233deg, #6bf0b8, #23f09a, #6ee4b2);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s7 {
+  background: linear-gradient(233deg, #3d77d4, #508dc7, #5d89cf);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s8 {
+  background: linear-gradient(233deg, #e7344c, #e72e2e, #e9313a);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s9 {
+  background: linear-gradient(233deg, #aeeb3f, #aaf029, #a1f30a);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s10 {
+  background: linear-gradient(233deg, #53c9e7, #19bfe9, #35caf0);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s11 {
+  background: linear-gradient(233deg, #e2df3e, #ddd018, #e9dd39);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+.s12 {
+  background: linear-gradient(233deg, #e75b95, #e6449a, #e254b3);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
